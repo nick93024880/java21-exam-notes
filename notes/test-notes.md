@@ -76,6 +76,10 @@
 
 - A Duration of 0 is printed as 0S and a Period of 0 is printed as 0D.
 
+- ```takeWhile``` keeps every element from the start of the stream until it hits the first one that fails the predicate, then it stops entirely.
+
+- ```dropWhile``` discards every element from the start of the stream until it hits the first one that fails the predicate, then it keeps everything else.
+
 ## Thread states
 
 | State | Description | Transition Trigger |
